@@ -1,0 +1,18 @@
+.ingredientItemContainer {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2);
+    margin-left: 30px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.foodAmount {
+    display: flex;
+    justify-content: center;
+}

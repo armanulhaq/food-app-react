@@ -1,0 +1,55 @@
+.foodItemContainer {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2);
+    margin-left: 30px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.foodTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.foodImage {
+    width: 80%;
+    border-radius: 8px;
+}
+
+.recipeButton {
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #ef233c;
+    border: none;
+    color: white;
+    font-weight: 500; /* Slightly bolder text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+.recipeButton:hover {
+    background-color: #ff5a5f; /* Darker green on hover */
+    transform: translateY(-3px); /* Lift the button slightly */
+}
+
+.recipeButton:active {
+    background-color: #388e3c; /* Even darker green on click */
+    transform: translateY(1px); /* Slightly push down when clicked */
+}
+
+.recipeButton:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(66, 133, 244, 0.5); /* Blue glow on focus */
+}

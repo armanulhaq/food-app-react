@@ -1,0 +1,40 @@
+.foodDetailsContainer {
+    width: 100%;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2);
+    margin-left: 30px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.foodInfo {
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foodImg {
+    width: 80%;
+    border-radius: 8px;
+}
+
+.instructions {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.ingredientsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+}
