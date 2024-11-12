@@ -12,20 +12,20 @@ An interactive web app built with React that helps users discover and learn abou
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/food-details-app.git
+   git clone https://github.com/your-username/food-app-react.git
 2. Navigate to the project directory:
-```bash
-   cd food-details-app
-```
+   ```bash
+   cd food-app-react
+   ```
 3. Install the dependencies:
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 4. Usage
-a. Start the development server:
-```bash
-npm start
-```
+Start the development server:
+   ```bash
+   npm start
+   ```
 Open the app in your browser at http://localhost:5173.
 
 
